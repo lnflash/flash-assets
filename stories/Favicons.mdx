@@ -1,0 +1,39 @@
+import { Meta } from "@storybook/blocks";
+
+import lightFavicon from "../favicons/light/favicon-32x32.png";
+import darkFavicon from "../favicons/dark/favicon-32x32.png";
+import monoLightFavicon from "../favicons/mono-light/favicon-32x32.png";
+import monoDarkFavicon from "../favicons/mono-dark/favicon-32x32.png";
+
+import "./styles.css";
+
+<Meta title="Favs/Icons" />
+
+# Favicons
+
+<ul id="favicons" className="grid col-4">
+    <figure className="lightBg">
+        <figcaption>
+            ## Light
+        </figcaption>
+        <img src={lightFavicon} />
+    </figure>
+    <figure className="darkBg">
+        <figcaption>
+            ## Dark
+        </figcaption>
+        <img src={darkFavicon} />
+    </figure>
+    <figure className="monoLightBg">
+        <figcaption>
+            ## Mono Light
+        </figcaption>
+        <img src={monoLightFavicon} />
+    </figure>
+    <figure className="monoDarkBg">
+        <figcaption>
+            ## Mono Dark
+        </figcaption>
+        <img src={monoDarkFavicon} />
+    </figure>
+</ul>
