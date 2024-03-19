@@ -1,0 +1,26 @@
+{
+  "name": "flash-assets",
+  "version": "0.0.1",
+  "description": "Flash brand style assets",
+  "main": "index.js",
+  "repository": "git@github.com:lnflash/flash-assets.git",
+  "license": "MIT",
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.15",
+    "@storybook/addon-interactions": "^7.6.15",
+    "@storybook/addon-links": "^7.6.15",
+    "@storybook/addon-onboarding": "^1.0.11",
+    "@storybook/blocks": "^7.6.15",
+    "@storybook/react": "^7.6.15",
+    "@storybook/react-webpack5": "^7.6.15",
+    "@storybook/test": "^7.6.15",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.6.15"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  }
+}

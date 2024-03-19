@@ -1,0 +1,75 @@
+.grid {
+    display: grid;
+    padding: 0;
+}
+
+.col-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.row-8 {
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#app-colors > figure {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+#app-colors.dark .cell {
+    background: #000;
+}
+
+#app-colors.light .cell {
+    background: #fff;
+}
+
+#app-colors.mono-dark .cell {
+    background: #41ab49;
+}
+
+#app-colors.mono-light .cell {
+    background: #fff200;
+}
+
+#favicons > figure {
+    list-style: none;
+    display: inline-grid;
+    justify-items: center;
+    padding: 8px;
+    margin: 0;
+    gap: 8px;
+}
+
+.lightBg {
+    background: #fff;
+}
+
+figure.lightBg>figcaption>h2,
+figure.monoLightBg>figcaption>h2 {
+    color: #000;
+}
+
+.darkBg {
+    background: #000;
+}
+
+figure.darkBg>figcaption>h2,
+figure.monoDarkBg>figcaption>h2 {
+    color: #fff;
+}
+
+.monoLightBg {
+    background: #fff200;
+}
+
+.monoDarkBg {
+    background: #41ad49;
+}
