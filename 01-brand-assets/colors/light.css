@@ -1,0 +1,12 @@
+:root {
+  --base-1: #fff200;
+  --base-2: #fff;
+  --base-3: #000;
+
+  --background-layout: var(---base-2);
+  --background-layout-inverse: var(---base-3);
+
+  --success: #41ad49;
+  --failure: #d12229;
+  --neutral: #eee;
+}
