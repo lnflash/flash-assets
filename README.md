@@ -125,8 +125,8 @@ MIT License - See package.json for details
 
 ## 🔗 Related Projects
 
-- [Flash Wallet](https://github.com/lnflash/flash) - The main Flash wallet application
-- [Flash Documentation](https://docs.flash-wallet.com) - User and developer documentation
+- [Flash Wallet](https://github.com/lnflash/flash-mobile) - The main Flash wallet application
+- [Flash Documentation](https://docs.getflash.io) - User and developer documentation
 
 ---
 
